@@ -1,0 +1,40 @@
+.todo-container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.todo{
+    color:#000000;
+    font-family: 'Roboto';
+    font-size:16px;
+}
+@media screen and(min-width:768px){
+    .todo{
+        font-size: 24px;
+    }
+}
+.del-button{
+    background-color: transparent;
+    color:#ff0b37;
+    font-family: 'Roboto';
+    font-size:12px;
+    border:1px solid #ff0b37;
+    border-radius:5px;
+    margin-left:16px;
+    padding-left:8px;
+    padding-right:8px;
+    padding-top:4px;
+    padding-bottom:4px;
+    cursor:pointer;
+}
+@media screen and(min-width:768xp){
+    .del-button{
+    font-size: 18px;
+    padding-top: 8px;
+    padding-left: 16px;
+    padding-bottom: 8px;
+    padding-right: 16px;
+    margin-left: 32px;
+    }
+}
